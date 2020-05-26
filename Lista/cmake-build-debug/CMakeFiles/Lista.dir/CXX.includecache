@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/List.cpp
+List.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/List.h
+iostream
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/iostream
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/List.h
+Node.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/Node.h
+Node.cpp
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/Node.cpp
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/Node.cpp
+Node.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/Node.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/Node.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/main.cpp
+iostream
+-
+List.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/List.h
+List.cpp
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/Lista/List.cpp
+
