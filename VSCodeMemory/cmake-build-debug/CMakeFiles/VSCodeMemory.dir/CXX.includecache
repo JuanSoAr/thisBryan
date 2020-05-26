@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.cpp
+GarbageCollector.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.h
+VSPtr.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
+vector
+-
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.cpp
+VSPtr.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/main.cpp
+iostream
+-
+VSPtr.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
+VSPtr.cpp
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.cpp
+GarbageCollector.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.h
+GarbageCollector.cpp
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.cpp
+
