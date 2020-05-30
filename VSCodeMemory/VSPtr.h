@@ -5,14 +5,14 @@
 #ifndef VSCODEMEMORY_VSPTR_H
 #define VSCODEMEMORY_VSPTR_H
 
-class ObserverVSPtr{
-    int references;
-    int ID;
-};
+#include "GarbageCollector.h"
+#include "iostream"
 
+
+using namespace std;
 
 template <class T>
-class VSPtr:ObserverVSPtr
+class VSPtr
 {
 private:
     T *ptr;
@@ -26,6 +26,7 @@ public:
     T* getPtr();
     void setPtr(T newPtr);
 
+
     int getID();
     void setID(int newID);
 
@@ -33,21 +34,14 @@ public:
     void deleteReferences();
     void addReferences();
 
-    ~VSPtr();
 
-    //Estar
     T &operator * ();
     T *operator -> ();
     T operator &();
     void operator =(T newValue);
     void operator =(VSPtr vsptr);
-
-    //Esta funacion upadate va a ssr notificada por las funaciones anteriores y segun el tipo de modificacion
-    //tendrea difeentes funcione para atualizar la lista que va a ser notifiado en el subjetctGarbageCollector
-    void updateList();
-
+    void updateList(int i);
 
 };
-
 
 #endif //VSCODEMEMORY_VSPTR_H

@@ -13,24 +13,48 @@ GarbageCollector.h
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.h
 VSPtr.h
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
-vector
--
+List.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/List.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/List.cpp
+List.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/List.h
+iostream
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/iostream
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/List.h
+Node.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/Node.h
+Node.cpp
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/Node.cpp
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/Node.cpp
+Node.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/Node.h
+
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/Node.h
 
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.cpp
 VSPtr.h
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
 
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
+GarbageCollector.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.h
+iostream
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/iostream
 
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/main.cpp
 iostream
--
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/iostream
 VSPtr.h
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.h
 VSPtr.cpp
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/VSPtr.cpp
-GarbageCollector.h
-/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.h
+List.h
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/List.h
+List.cpp
+/home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/List.cpp
 GarbageCollector.cpp
 /home/usuario/Escritorio/#2020-Semestre1/Datos2-Progras/VSCodeMemory/GarbageCollector.cpp
 

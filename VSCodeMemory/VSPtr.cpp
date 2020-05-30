@@ -4,6 +4,8 @@
 
 #include "VSPtr.h"
 
+GarbageCollector* garbageCollector = GarbageCollector::getInstance();
+
 template<class T>
 VSPtr<T> VSPtr<T>::New()
 {
@@ -11,7 +13,7 @@ VSPtr<T> VSPtr<T>::New()
     newVSPtr.ptr = nullptr;
     newVSPtr.references = 1;
     newVSPtr.ID = genID();
-
+    garbageCollector->getList()->addNode(newVSPtr.ptr);
     return newVSPtr;
 }
 
@@ -25,6 +27,7 @@ int VSPtr<T>::genID()
 template<class T>
 VSPtr<T>::VSPtr()
 {
+
 }
 
 template<class T>
@@ -88,13 +91,23 @@ T VSPtr<T>::operator&() {
 template<class T>
 void VSPtr<T>::operator=(T newValue) {
     ptr = new T(newValue);
+    garbageCollector->getList()->setMemory(ptr);
 }
 
 template<class T>
 void VSPtr<T>::operator=(VSPtr vsptr) {
+    if(references == 1){
+        garbageCollector->getList()->deleteNode(ID);
+    }
+    if(references >1){
+        garbageCollector->getList()->deleteReferences(ID);
+    }
     deleteReferences();
     vsptr.addReferences();
     ptr = vsptr.ptr;
     ID = vsptr.ID;
+    garbageCollector->getList()->addReferences(vsptr.ID);
 }
+
+
 
